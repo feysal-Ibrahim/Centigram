@@ -1,0 +1,105 @@
+<html>
+<head>
+    <style>
+
+  .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 2px solid #ddd;
+}
+.navbar .logo-section {
+  display: flex;
+  align-items: center;
+}
+.navbar .logo-section div {
+  align-self: stretch;
+  width: 1px;
+  background: black;
+  margin: 0 20px;
+}
+.navbar .icons-section .fa {
+  text-decoration: none;
+  color: inherit;
+  font-size: 2rem;
+  margin: 0 10px;
+}
+.navbar .logo {
+  width: 40px;
+}
+.navbar .logoname {
+  width: 130px;
+}
+.navbar .input-search {
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  border: 2px solix #ddd;
+  outline: 0;
+}
+.navbar .input-search:focus {
+  text-align: left;
+}
+
+    </style>
+</head>
+<body>
+
+         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
+<nav class="navbar">
+  <section class="logo-section"><img class="logo" src="https://seeklogo.com/images/I/instagram-new-2016-glyph-logo-84CB825424-seeklogo.com.png"/>
+
+    <!--<div></div><img class="logoname" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/2000px-Instagram_logo.svg.png"/>-->
+  </section>
+  <form class="search-section"   role="search" action="{% url 'search_results' %}">
+    <input class="input-search" type="search" name="search" placeholder="search"/>
+  </form>
+  <section class="icons-section"><a class="fa fa-compass" href="#"></a><a class="fa fa-heart-o" href="#"></a><a class="fa fa-user-o" href="#"></a></section>
+</nav>
+         </div>
+ <div class="col-sm-6 col-md-6">
+            {% if user.is_authenticated %}
+            <ul>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle btn btn-default" data-toggle="dropdown" role="button" aria-expanded="false">Account
+                          <span class="caret"></span>
+                      </a>
+                <ul class="dropdown-menu" role="menu">
+                  <li>
+                    <a href="">Home</a>
+                  </li>
+                  <li>
+                    <a href="/accounts/password/change">Change Password</a>
+                  </li>
+                  <li>
+                    <a href="/logout">Logout</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            {% else %}
+            <li>
+              <a class='btn btn-default' href="/accounts/login">Login</a>
+            </li>
+
+            {% endif %}
+          </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
