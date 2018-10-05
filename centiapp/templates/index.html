@@ -1,125 +1,75 @@
-{%extends 'base.html'%}
+{% extends 'base.html' %}
+{% load bootstrap4 %}
 {% block content %}
 {{block.super}}
-
-
-<div class="container">
-      <div class="row">
-
-  <!-- Looping through news   -->
-  {% for images in images %}
-    <!-- displaying News articles -->
-    <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 ">
-         <div class="card">
-        <a href="" class="thumbnail">
-         <img id="myImg"  src="{{images.image.url}}" alt="{{galleries.description}}" class="img-fluid"  style="width:100%;max-width:300px">
-        </a>
-                   <div class="card-body">
-          <p class="card-text">{{images.caption}}</p>
-                       posted<p class="card-text" >{{images.upload_date|timesince}} ago</p>
-                       likes<p class="card-text" >{{images.likes}}</p>
-      <!--<h2 class="text-center"> {{ images.caption }} </h2>-->
+<div class="container mt-5">
+        <div class="row mt-3"></div>
+        <div class="row mt-5">
+  <div class="col-md-2 col-lg-2 col-xs-1 col-sm-1"></div>
+  <div class="col-md-8 col-lg-8 col-xs-9 col-sm-9">
+    <div class="pulse-btn">
+  <p><b>{{user | title}}</b>, are you new to Centigram?      <a href="{% url 'edit' %}" class="btn btn-info ">  Create a profile</a>
+</p>
     </div>
+          {% for img in images %}
+          {% if img.image %}
+          <div class="card">
+                  <div class="card-header">
+                          <img src="{{img.profile.profilePic.url}}" class="img-fluid rounded-circle" style="width:4%;height:4%">
+                          {% if profile.user.id == img.user.id %}
+                          <a href="{% url 'profile' %}">{{img.user.username}}</a>
+                          {% else %}
+                          <a href="{% url 'yourprofile' pk=img.user.id %}">{{img.user.username}}</a>
+                          {% endif %}
+                  </div>
 
-  </div>
-    </div>
 
-  {% empty %}
-  <div class="row">
-    <h2 class="text-center">There No News Items</h2>
 
-  </div>
-  {% endfor %}
-<style>
-   .thumbnail img{
-    position: relative;
-    width:  300px;
-    height: 300px;
-    background-position: 50% 50%;
-    background-repeat:   no-repeat;
-    background-size:     cover;
-     border: 1px solid yellow;
-      background: orange;
-}
-    .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-}
-    .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-    .container {
-    padding: 2px 16px;
-}
-/* Style the Image Used to Trigger the Modal */
-#myImg {
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-#myImg:hover {opacity: 0.7;}
-/* The Modal (background) */
-.modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
-}
-/* Modal Content (Image) */
-.modal-content {
-    margin: auto;
-    display: block;
-    width: 80%;
-    max-width: 700px;
-}
-/* Caption of Modal Image (Image Text) - Same Width as the Image */
-#caption {
-    margin: auto;
-    display: block;
-    width: 80%;
-    max-width: 700px;
-    text-align: center;
-    color: #ccc;
-    padding: 10px 0;
-    height: 150px;
-}
-/* Add Animation - Zoom in the Modal */
-.modal-content, #caption {
-    animation-name: zoom;
-    animation-duration: 0.6s;
-}
-@keyframes zoom {
-    from {transform:scale(0)}
-    to {transform:scale(1)}
-}
-/* The Close Button */
-.close {
-    position: absolute;
-    top: 15px;
-    right: 35px;
-    color: #f1f1f1;
-    font-size: 40px;
-    font-weight: bold;
-    transition: 0.3s;
-}
-.close:hover,
-.close:focus {
-    color: #bbb;
-    text-decoration: none;
-    cursor: pointer;
-}
-/* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px){
-    .modal-content {
-        width: 100%;
-    }
-}
-</style>
+                                      <div class="card-body">
+                                              <img src="{{img.image.url}}" alt="" class="img-fluid" style="width:100%; height:100%">
+                                              <hr>
+                                              <div class="icons mt-3">
+                                                              <a id="like" href="{% url 'like' operation='like' pk=img.id%}" style="color:inherit;">
+                                                                      <i class="far fa-heart fa-2x ml-4"></i>
+                                                              </a>
+
+                                                              <a href="{% url 'comment' pk=img.id %}" style="color:inherit;"><i class="far fa-comment fa-2x ml-4"></i></a>
+
+                                                              <a href="#" style="color:inherit;"><i class="far fa-bookmark fa-2x float-right mr-4"></i></a>
+                                                            </div>
+
+
+
+                                              <br>
+                                              {% if img.likes >= 1 %}
+                                              <div class="row">
+                                                      <h5 style="padding:8px; color:red;"><b>{{img.likes}} likes</b></h5>
+                                              </div>
+
+
+                                                {% endif %}
+                                                <div class="row">
+                                                        <h5 style="padding: 8px"><a href="{% url 'yourprofile' pk=img.user.id %}"><b>{{img.user.username}}</b></a> {{img.caption}}</h5>
+                                                </div>
+                                                <h6>{{img.upload_date | timesince}} ago</h6>
+                                                <hr>
+
+                                                {% for comment in comments %}
+                                                {% if img.id == comment.image.id %}
+                                                <p><b>{{comment.user}}</b>  {{comment.comments}}</p>
+                                                {% endif %}
+                                                {% endfor %}
+                                        </div>
+                                        <div class="card-footer">
+                                                <p><a href="{% url 'comment' pk=img.id %}">Add comment</a></p>
+                                        </div>
+                                </div>
+                                {% endif %}
+                                <br><br>
+                                {% endfor %}
+                        </div>
+                        <div class="col-md-2 col-lg-2 col-xs-1 col-sm-1"></div>
+        </div>
+
+</div>
 {% endblock %}

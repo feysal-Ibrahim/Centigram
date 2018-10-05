@@ -35,6 +35,7 @@ INSTALLED_APPS = [
     'bootstrap3' ,
     'bootstrap4' ,
     'tinymce',
+    'pyuploadcare',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -82,7 +83,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'centigram',
         'USER': 'feisal',
-    'PASSWORD':'1234',
+        'PASSWORD':'1234',
     }
 }
 
