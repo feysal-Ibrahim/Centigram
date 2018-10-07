@@ -1,5 +1,4 @@
 {% extends 'base.html' %}
-{% load bootstrap4 %}
 {% block content %}
 {{block.super}}
 <div class="container mt-5">
@@ -8,7 +7,7 @@
   <div class="col-md-2 col-lg-2 col-xs-1 col-sm-1"></div>
   <div class="col-md-8 col-lg-8 col-xs-9 col-sm-9">
     <div class="pulse-btn">
-  <p><b>{{user | title}}</b>, are you new to Centigram?      <a href="{% url 'edit' %}" class="btn btn-info ">  Create a profile</a>
+  <p><b>{{user | title}}</b>, are you new to Centigram?<a href="{% url 'edit' %}" class="btn btn-info ">Create a profile</a>
 </p>
     </div>
           {% for img in images %}
@@ -19,7 +18,7 @@
                           {% if profile.user.id == img.user.id %}
                           <a href="{% url 'profile' %}">{{img.user.username}}</a>
                           {% else %}
-                          <a href="{% url 'yourprofile' pk=img.user.id %}">{{img.user.username}}</a>
+                          <a href="{% url 'profile' pk=img.user.id %}">{{img.user.username}}</a>
                           {% endif %}
                   </div>
 
@@ -41,15 +40,16 @@
 
 
                                               <br>
-                                              {% if img.likes >= 1 %}
+                                              {% if img.likes >= 1  %}
                                               <div class="row">
-                                                      <h5 style="padding:8px; color:red;"><b>{{img.likes}} likes</b></h5>
+                                                      <h5 style="padding:8px; color:red;"><b>{{img.likes}} likes </b></h5>
+
                                               </div>
 
 
                                                 {% endif %}
                                                 <div class="row">
-                                                        <h5 style="padding: 8px"><a href="{% url 'yourprofile' pk=img.user.id %}"><b>{{img.user.username}}</b></a> {{img.caption}}</h5>
+                                                        <h5 style="padding: 8px"><a href="{% url 'profile' pk=img.user.id %}"><b>{{img.user.username}}</b></a> {{img.caption}}</h5>
                                                 </div>
                                                 <h6>{{img.upload_date | timesince}} ago</h6>
                                                 <hr>

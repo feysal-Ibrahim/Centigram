@@ -2,12 +2,13 @@
 {% load bootstrap4 %}
 {% block content %}
 {{block.super}}
-<div class="container mt-5"></div>
 <div class="container mt-5">
     <div class="row mt-1"></div>
+    <p><a href="{% url 'home' %}" class="btn btn-default" >Back to Home</a></p>
     <div class="row mt-5">
     </div>
     <div class="row mt-5">
+
         {% for prof in profile %}
         {% if user.id == prof.user.id %}
             <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>

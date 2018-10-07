@@ -60,7 +60,6 @@ def edit(request):
 
 @login_required(login_url="/accounts/login/")
 def upload(request):
-    title = 'Maxgram :-)'
     current_user = request.user
     profiles = Profile.get_profile()
     for profile in profiles:
@@ -75,7 +74,7 @@ def upload(request):
                     return redirect('home')
             else:
                 form = UploadForm()
-            return render(request,'upload/new-upload.html',{"title":title,
+            return render(request,'upload/new-upload.html',{
                                                     "user":current_user,
                                                     "form":form})
 
