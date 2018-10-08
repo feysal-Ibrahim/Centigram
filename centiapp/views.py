@@ -21,7 +21,6 @@ def home(request):
 
 @login_required(login_url='/accounts/login/')
 def profile(request):
-    title = 'Maxgram :-)'
     current_user = request.user
     profile = Profile.get_profile()
     image = Image.get_images()
