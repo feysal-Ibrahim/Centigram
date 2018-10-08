@@ -8,7 +8,6 @@ from django.contrib.auth.models import User
 # Create your views here.
 @login_required(login_url='/accounts/login/')
 def home(request):
-    title = 'Maxgram :-)'
     current_user = request.user
     profile = Profile.get_profile()
     image = Image.get_images()
@@ -25,7 +24,7 @@ def profile(request):
     profile = Profile.get_profile()
     image = Image.get_images()
     comments = Comment.get_comment()
-    return render(request,'profile/profile.html',{"title":title,
+    return render(request,'profile/profile.html',{
                                                   "comments":comments,
                                                   "image":image,
                                                   "user":current_user,
