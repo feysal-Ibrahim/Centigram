@@ -32,4 +32,6 @@ The following are needed for the application to run on a local computer:
 4. **_`Run pip install -r requirements on your terminal after installing the virtual environment to intall the applications requirements.`_**
 5. **_`Run python3.6 manage.py runserver in a virtual environment to view the site.`_**
 
-### 
+### Updates
+
+Application is still in development stages and still being updated on a few other functionalities. In case You have any issues using this code please get in touch with me through contact below or leave a comment here on github.
