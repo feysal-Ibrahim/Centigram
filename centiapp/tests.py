@@ -1,5 +1,5 @@
 from django.test import TestCase
-from .models import  Image
+from .models import  Image,Comment
 
 #Create your tests here.
 class ImageTestClass(TestCase):
@@ -14,4 +14,8 @@ class ImageTestClass(TestCase):
        self.image.save_image( )
        images=Image.objects.all( )
        self.assertTrue( len( images )>0 )
+
+
+
+
 
