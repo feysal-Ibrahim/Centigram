@@ -12,7 +12,7 @@ def home(request):
     profile = Profile.get_profile()
     image = Image.get_images()
     comments = Comment.get_comment()
-    return render(request,'index.html',{"title":title,
+    return render(request,'index.html',{
                                         "profile":profile,
                                         "comments":comments,
                                         "current_user":current_user,
@@ -42,7 +42,6 @@ def settings(request):
 
 @login_required(login_url='/accounts/login/')
 def edit(request):
-    title = 'Maxgram :-)'
     current_user = request.user
     if request.method == 'POST':
         form = EditProfileForm(request.POST,request.FILES)
@@ -53,7 +52,7 @@ def edit(request):
             return redirect('profile')
     else:
         form = EditProfileForm()
-    return render(request,'profile/edit.html',{"title":title,
+    return render(request,'profile/edit.html',{
                                                 "form":form})
 
 @login_required(login_url="/accounts/login/")
@@ -116,7 +115,6 @@ def new_comment(request,pk):
 
 @login_required(login_url="/accounts/login/")
 def view_your_profile(request,pk):
-    title =  "Maxgram :-)"
     current_user = request.user
     image = Image.get_images()
     profile = Profile.get_profile()
