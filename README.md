@@ -25,4 +25,11 @@ The following are needed for the application to run on a local computer:
 3. Bootstrap
 4. Web browser
 
+### Installation requirements and steps.
+1. **_`Ensure you have python installed in your local machine.`_**
+2. **_`Clone the repository from github by running git clone https://github.com/feysal-Ibrahim/centigram on the terminal.`_**
+3. **_`Install the python virtual environment in the repo by running python3.6 -m venv virtual.`_**
+4. **_`Run pip install -r requirements on your terminal after installing the virtual environment to intall the applications requirements.`_**
+5. **_`Run python3.6 manage.py runserver in a virtual environment to view the site.`_**
+
 ### 
