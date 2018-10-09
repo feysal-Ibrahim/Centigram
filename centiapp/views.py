@@ -9,6 +9,9 @@ from django.contrib.auth.models import User
 # Create your views here.
 @login_required( login_url='/accounts/login/' )
 def home(request):
+    '''
+    Method that fetches all images from all users.
+    '''
     current_user=request.user
     profile=Profile.get_profile( )
     image=Image.get_images( )
