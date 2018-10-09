@@ -25,6 +25,9 @@ def home(request):
 
 @login_required( login_url='/accounts/login/' )
 def profile(request):
+    '''
+    	Method that fetches a users profile page
+    	'''
     current_user=request.user
     profile=Profile.get_profile( )
     image=Image.get_images( )
