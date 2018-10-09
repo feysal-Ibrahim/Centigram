@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86c0ad92-c80d-4a9d-bad9-fe56dad548c5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../centiapp/templates/profile/setting.html" beforeDir="false" afterPath="$PROJECT_DIR$/../centiapp/templates/profile/setting.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../centiapp/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/../centiapp/templates/navbar.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +70,7 @@
           <entry key="Procfile" value="9" />
           <entry key="env" value="21" />
           <entry key="gitignore" value="4" />
-          <entry key="html" value="1404" />
+          <entry key="html" value="1428" />
           <entry key="md" value="315" />
           <entry key="py" value="623" />
         </counts>
@@ -79,7 +78,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key=".env file" value="21" />
-          <entry key="HTML" value="1404" />
+          <entry key="HTML" value="1428" />
           <entry key="Markdown" value="315" />
           <entry key="PLAIN_TEXT" value="13" />
           <entry key="Python" value="623" />
@@ -91,12 +90,12 @@
           <entry key="css" value="2" />
           <entry key="env" value="2" />
           <entry key="gitignore" value="1" />
-          <entry key="html" value="64" />
+          <entry key="html" value="67" />
           <entry key="jpeg" value="1" />
           <entry key="jpg" value="1" />
           <entry key="md" value="1" />
           <entry key="png" value="1" />
-          <entry key="py" value="57" />
+          <entry key="py" value="58" />
           <entry key="txt" value="5" />
         </counts>
       </usages-collector>
@@ -104,17 +103,38 @@
         <counts>
           <entry key=".env file" value="2" />
           <entry key="CSS" value="2" />
-          <entry key="HTML" value="64" />
+          <entry key="HTML" value="67" />
           <entry key="Image" value="3" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="7" />
-          <entry key="Python" value="57" />
+          <entry key="Python" value="58" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../centiapp/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="61" lean-forward="true" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../centiapp/templates/navbar.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="34" column="61" selection-start-line="34" selection-start-column="61" selection-end-line="34" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../centiapp/models.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -140,11 +160,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../centiapp/templates/profile/setting.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+            <state relative-caret-position="289">
+              <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../centiapp/templates/profile/view.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="46" lean-forward="true" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../centiapp/templates/profile/profile.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="88" column="14" selection-start-line="88" selection-start-column="14" selection-end-line="88" selection-end-column="14" />
+              <folding>
+                <element signature="n#style#0;n#h6#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -181,7 +222,6 @@
         <option value="$PROJECT_DIR$/../centiapp/models.py" />
         <option value="$PROJECT_DIR$/../centiapp/templates/upload/new-upload.html" />
         <option value="$PROJECT_DIR$/../centiapp/templates/base.html" />
-        <option value="$PROJECT_DIR$/../centiapp/templates/navbar.html" />
         <option value="$PROJECT_DIR$/../centiapp/templates/index.html" />
         <option value="$PROJECT_DIR$/../Procfile" />
         <option value="$PROJECT_DIR$/../runtime.txt" />
@@ -198,6 +238,7 @@
         <option value="$PROJECT_DIR$/../centiapp/templates/registration/registration_form.html" />
         <option value="$PROJECT_DIR$/../centiapp/tests.py" />
         <option value="$PROJECT_DIR$/../centiapp/templates/profile/setting.html" />
+        <option value="$PROJECT_DIR$/../centiapp/templates/navbar.html" />
       </list>
     </option>
   </component>
@@ -402,13 +443,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../centiapp/templates/profile/view.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../centigram/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -426,13 +460,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../centiapp/templates/navbar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="37" column="66" selection-start-line="37" selection-start-column="66" selection-end-line="37" selection-end-column="66" />
         </state>
       </provider>
     </entry>
@@ -495,16 +522,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../centiapp/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../centigram/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -526,16 +543,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../centiapp/templates/profile/profile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1496">
-          <caret line="88" column="14" selection-start-line="88" selection-start-column="14" selection-end-line="88" selection-end-column="14" />
-          <folding>
-            <element signature="n#style#0;n#h6#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -619,10 +626,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../centiapp/templates/profile/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="88" column="14" selection-start-line="88" selection-start-column="14" selection-end-line="88" selection-end-column="14" />
+          <folding>
+            <element signature="n#style#0;n#h6#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../centiapp/templates/profile/setting.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+        <state relative-caret-position="289">
+          <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../centiapp/templates/profile/view.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="46" lean-forward="true" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../centiapp/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="61" lean-forward="true" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../centiapp/templates/navbar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="34" column="61" selection-start-line="34" selection-start-column="61" selection-end-line="34" selection-end-column="61" />
         </state>
       </provider>
     </entry>
