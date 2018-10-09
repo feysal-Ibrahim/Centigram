@@ -107,6 +107,9 @@ def search(request):
 
 @login_required( login_url='/accounts/login/' )
 def new_comment(request , pk):
+    '''
+    	Method that fetches a users new comment from the comment form
+    	'''
     image=get_object_or_404( Image , pk=pk )
     current_user=request.user
     if request.method == 'POST':
