@@ -129,6 +129,9 @@ def view_your_profile(request , pk):
 
 @login_required( login_url="/accounts/login/" )
 def like(request , operation , pk):
+    '''
+    Method function that likes a post.
+    '''
     image=get_object_or_404( Image , pk=pk )
     if operation == 'like':
         image.likes+=1
