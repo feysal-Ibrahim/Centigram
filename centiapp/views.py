@@ -41,10 +41,11 @@ def profile(request):
 
 @login_required( login_url='/accounts/login/' )
 def settings(request):
-    title='Maxgram :-)'
+    '''
+    	Method that fetches the details of a user uniquily
+    	'''
     settings=Profile.get_profile( )
-    return render( request , 'profile/setting.html' , {"settings": settings ,
-                                                       "title": title , } )
+    return render( request , 'profile/setting.html' , {"settings": settings} )
 
 
 @login_required( login_url='/accounts/login/' )
