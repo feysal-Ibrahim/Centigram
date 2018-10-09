@@ -73,7 +73,7 @@
           <entry key="gitignore" value="4" />
           <entry key="html" value="1395" />
           <entry key="md" value="315" />
-          <entry key="py" value="619" />
+          <entry key="py" value="623" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -82,7 +82,7 @@
           <entry key="HTML" value="1395" />
           <entry key="Markdown" value="315" />
           <entry key="PLAIN_TEXT" value="13" />
-          <entry key="Python" value="619" />
+          <entry key="Python" value="623" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -118,8 +118,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../centiapp/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="40" column="6" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
+            <state relative-caret-position="306">
+              <caret line="42" column="9" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="9" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -130,11 +130,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../centiapp/tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="59" lean-forward="true" selection-start-line="29" selection-start-column="59" selection-end-line="29" selection-end-column="59" />
+            <state relative-caret-position="153">
+              <caret line="9" column="116" selection-start-line="9" selection-start-column="116" selection-end-line="9" selection-end-column="116" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
-                <marker date="1539097656352" expanded="true" signature="140:141" ph="..." />
+                <marker date="1539097760365" expanded="true" signature="140:141" ph="..." />
               </folding>
             </state>
           </provider>
@@ -311,7 +311,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3297414" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3295964" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.36659193" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.36659193" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -611,8 +611,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../centiapp/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="40" column="6" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
+        <state relative-caret-position="306">
+          <caret line="42" column="9" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="9" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
@@ -621,11 +621,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../centiapp/tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="59" lean-forward="true" selection-start-line="29" selection-start-column="59" selection-end-line="29" selection-end-column="59" />
+        <state relative-caret-position="153">
+          <caret line="9" column="116" selection-start-line="9" selection-start-column="116" selection-end-line="9" selection-end-column="116" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
-            <marker date="1539097656352" expanded="true" signature="140:141" ph="..." />
+            <marker date="1539097760365" expanded="true" signature="140:141" ph="..." />
           </folding>
         </state>
       </provider>

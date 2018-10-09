@@ -7,8 +7,7 @@ class ImageTestClass( TestCase ):
     # Set up method
     def setUp(self):
         self.profile=Profile.objects.create( name="profile" )
-        self.image=Image( image='image' , caption='caption' , upload_date='upload_date' , user='user' ,
-                          profile=self.profile )
+        self.image=Image( image='image' , caption='caption' , upload_date='upload_date' , user='user',likes='likes',profile=self.profile )
 
         self.image.save( )
 
