@@ -66,6 +66,9 @@ def edit(request):
 
 @login_required( login_url="/accounts/login/" )
 def upload(request):
+    '''
+    	Method that return a form for uploading images
+    	'''
     current_user=request.user
     profiles=Profile.get_profile( )
     for profile in profiles:
