@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="86c0ad92-c80d-4a9d-bad9-fe56dad548c5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../centiapp/templates/registration/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../centiapp/templates/registration/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../centiapp/templates/registration/registration_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/../centiapp/templates/registration/registration_form.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +71,7 @@
           <entry key="Procfile" value="9" />
           <entry key="env" value="21" />
           <entry key="gitignore" value="4" />
-          <entry key="html" value="1296" />
+          <entry key="html" value="1316" />
           <entry key="md" value="315" />
           <entry key="py" value="544" />
         </counts>
@@ -79,7 +79,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key=".env file" value="21" />
-          <entry key="HTML" value="1296" />
+          <entry key="HTML" value="1316" />
           <entry key="Markdown" value="315" />
           <entry key="PLAIN_TEXT" value="13" />
           <entry key="Python" value="544" />
@@ -91,7 +91,7 @@
           <entry key="css" value="2" />
           <entry key="env" value="2" />
           <entry key="gitignore" value="1" />
-          <entry key="html" value="62" />
+          <entry key="html" value="63" />
           <entry key="jpeg" value="1" />
           <entry key="jpg" value="1" />
           <entry key="md" value="1" />
@@ -104,7 +104,7 @@
         <counts>
           <entry key=".env file" value="2" />
           <entry key="CSS" value="2" />
-          <entry key="HTML" value="62" />
+          <entry key="HTML" value="63" />
           <entry key="Image" value="3" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="7" />
@@ -115,15 +115,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../centiapp/apps.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../.env">
           <provider selected="true" editor-type-id="text-editor">
@@ -157,10 +148,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../centiapp/templates/registration/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
+            <state relative-caret-position="1666">
               <caret line="98" column="18" selection-start-line="98" selection-start-column="18" selection-end-line="98" selection-end-column="18" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
@@ -172,6 +163,27 @@
                 <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#a#1;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#11;n#ul#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../centiapp/templates/registration/registration_form.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="7" column="103" lean-forward="true" selection-start-line="7" selection-start-column="103" selection-end-line="7" selection-end-column="103" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#11;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -245,7 +257,6 @@
         <option value="$PROJECT_DIR$/../centiapp/admin.py" />
         <option value="$PROJECT_DIR$/../centiapp/static/css/navbar.css" />
         <option value="$PROJECT_DIR$/../centigram/urls.py" />
-        <option value="$PROJECT_DIR$/../centiapp/templates/registration/registration_form.html" />
         <option value="$PROJECT_DIR$/../centiapp/templates/profile/edit.html" />
         <option value="$PROJECT_DIR$/../centiapp/templates/comment.html" />
         <option value="$PROJECT_DIR$/../centiapp/templates/profile/view.html" />
@@ -274,6 +285,7 @@
         <option value="$PROJECT_DIR$/../centiapp/tests.py" />
         <option value="$PROJECT_DIR$/../centiapp/templates/registration/base.html" />
         <option value="$PROJECT_DIR$/../centiapp/templates/registration/login.html" />
+        <option value="$PROJECT_DIR$/../centiapp/templates/registration/registration_form.html" />
       </list>
     </option>
   </component>
@@ -498,13 +510,6 @@
     <entry file="file://$PROJECT_DIR$/../centiapp/templates/User/search.html" />
     <entry file="file://$PROJECT_DIR$/../centiapp/templates/User/timeline.html" />
     <entry file="file://$PROJECT_DIR$/../centiapp/templates/User/updateprofile.html" />
-    <entry file="file://$PROJECT_DIR$/../centiapp/templates/registration/registration_form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../centiapp/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -672,7 +677,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../centiapp/templates/registration/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
+        <state relative-caret-position="1666">
           <caret line="98" column="18" selection-start-line="98" selection-start-column="18" selection-end-line="98" selection-end-column="18" />
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
@@ -684,6 +689,25 @@
             <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#1;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#11;n#ul#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../centiapp/templates/registration/registration_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="7" column="103" lean-forward="true" selection-start-line="7" selection-start-column="103" selection-end-line="7" selection-end-column="103" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#11;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
