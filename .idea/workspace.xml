@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="86c0ad92-c80d-4a9d-bad9-fe56dad548c5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../centiapp/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/../centiapp/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../centiapp/templates/profile/setting.html" beforeDir="false" afterPath="$PROJECT_DIR$/../centiapp/templates/profile/setting.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +71,7 @@
           <entry key="Procfile" value="9" />
           <entry key="env" value="21" />
           <entry key="gitignore" value="4" />
-          <entry key="html" value="1395" />
+          <entry key="html" value="1404" />
           <entry key="md" value="315" />
           <entry key="py" value="623" />
         </counts>
@@ -79,7 +79,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key=".env file" value="21" />
-          <entry key="HTML" value="1395" />
+          <entry key="HTML" value="1404" />
           <entry key="Markdown" value="315" />
           <entry key="PLAIN_TEXT" value="13" />
           <entry key="Python" value="623" />
@@ -91,7 +91,7 @@
           <entry key="css" value="2" />
           <entry key="env" value="2" />
           <entry key="gitignore" value="1" />
-          <entry key="html" value="63" />
+          <entry key="html" value="64" />
           <entry key="jpeg" value="1" />
           <entry key="jpg" value="1" />
           <entry key="md" value="1" />
@@ -104,7 +104,7 @@
         <counts>
           <entry key=".env file" value="2" />
           <entry key="CSS" value="2" />
-          <entry key="HTML" value="63" />
+          <entry key="HTML" value="64" />
           <entry key="Image" value="3" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="7" />
@@ -127,15 +127,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../centiapp/tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="116" selection-start-line="9" selection-start-column="116" selection-end-line="9" selection-end-column="116" />
+            <state relative-caret-position="17">
+              <caret line="1" column="45" lean-forward="true" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="45" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
                 <marker date="1539097760365" expanded="true" signature="140:141" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../centiapp/templates/profile/setting.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -163,7 +172,6 @@
         <option value="$PROJECT_DIR$/../centiapp/templates/profile/edit.html" />
         <option value="$PROJECT_DIR$/../centiapp/templates/comment.html" />
         <option value="$PROJECT_DIR$/../centiapp/templates/profile/view.html" />
-        <option value="$PROJECT_DIR$/../centiapp/templates/profile/setting.html" />
         <option value="$PROJECT_DIR$/../centiapp/templates/search.html" />
         <option value="$PROJECT_DIR$/../centiapp/templates/User/editpost.html" />
         <option value="$PROJECT_DIR$/../centiapp/templates/User/profile.html" />
@@ -189,6 +197,7 @@
         <option value="$PROJECT_DIR$/../centiapp/templates/registration/login.html" />
         <option value="$PROJECT_DIR$/../centiapp/templates/registration/registration_form.html" />
         <option value="$PROJECT_DIR$/../centiapp/tests.py" />
+        <option value="$PROJECT_DIR$/../centiapp/templates/profile/setting.html" />
       </list>
     </option>
   </component>
@@ -223,19 +232,6 @@
               <item name="." type="b2602c69:ProjectViewProjectNode" />
               <item name="Gram" type="462c0819:PsiDirectoryNode" />
               <item name="centiapp" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="." type="b2602c69:ProjectViewProjectNode" />
-              <item name="Gram" type="462c0819:PsiDirectoryNode" />
-              <item name="centiapp" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="image" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="." type="b2602c69:ProjectViewProjectNode" />
-              <item name="Gram" type="462c0819:PsiDirectoryNode" />
-              <item name="centiapp" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -243,7 +239,7 @@
               <item name="Gram" type="462c0819:PsiDirectoryNode" />
               <item name="centiapp" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="registration" type="462c0819:PsiDirectoryNode" />
+              <item name="profile" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -300,7 +296,7 @@
     <frame x="923" y="34" width="989" height="1020" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.14078675" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14078675" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -311,7 +307,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3297414" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3295964" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.36659193" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.36659193" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -543,13 +539,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../centiapp/templates/profile/setting.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../centiapp/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -621,12 +610,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../centiapp/tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="116" selection-start-line="9" selection-start-column="116" selection-end-line="9" selection-end-column="116" />
+        <state relative-caret-position="17">
+          <caret line="1" column="45" lean-forward="true" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="45" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
             <marker date="1539097760365" expanded="true" signature="140:141" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../centiapp/templates/profile/setting.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
         </state>
       </provider>
     </entry>
