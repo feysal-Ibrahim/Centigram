@@ -99,10 +99,10 @@ def search(request):
         profiles=Profile.objects.filter( user__username__icontains=search_term )
         message=f"{search_term}"
 
-        return render( request , 'accounts/search.html' , {"message": message , "profiles": profiles} )
+        return render( request , 'search.html' , {"message": message , "profiles": profiles} )
     else:
         message="You haven't searched for any item"
-        return render( request , 'search.html' , {"message": message} )
+        return render( request ,'search.html' , {"message": message} )
 
 
 @login_required( login_url='/accounts/login/' )
@@ -127,13 +127,16 @@ def new_comment(request , pk):
 
 
 @login_required( login_url="/accounts/login/" )
-def view_your_profile(request , pk):
+def view_profile(request , pk):
+    '''
+    	Method that dispalys users profile only after creating profile
+    	'''
     current_user=request.user
     image=Image.get_images( )
     profile=Profile.get_profile( )
     comment=Comment.get_comment( )
     user=get_object_or_404( User , pk=pk )
-    return render( request , 'view.html' , {"user": current_user ,
+    return render( request , 'profile/view-profile.html' , {"user": current_user ,
                                             "images": image ,
                                             "my_user": user ,
                                             "comments": comment ,
