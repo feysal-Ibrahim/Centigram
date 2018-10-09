@@ -79,20 +79,19 @@ def upload(request):
 
 
 @login_required( login_url="/accounts/login/" )
-def search_results(request):
-    current_user=request.user
-    profile=Profile.get_profile( )
-    if 'username' in request.GET and request.GET["username"]:
-        search_term=request.GET.get( "username" )
-        searched_name=Profile.find_profile( search_term )
-        message=search_term
+@login_required( login_url='/accounts/login/' )
+def search(request):
+    '''
+	Method that searches for users based on their profiles
+	'''
+    if request.GET['search']:
+        search_term=request.GET.get( "search" )
+        profiles=Profile.objects.filter( user__username__icontains=search_term )
+        message=f"{search_term}"
 
-        return render( request , 'search.html' , {"message": message ,
-                                                  "profiles": profile ,
-                                                  "user": current_user ,
-                                                  "username": searched_name} )
+        return render( request , 'accounts/search.html' , {"message": message , "profiles": profiles} )
     else:
-        message="You haven't searched for any user"
+        message="You haven't searched for any item"
         return render( request , 'search.html' , {"message": message} )
 
 
