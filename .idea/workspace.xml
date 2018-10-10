@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86c0ad92-c80d-4a9d-bad9-fe56dad548c5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="86c0ad92-c80d-4a9d-bad9-fe56dad548c5" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +90,7 @@
           <entry key="css" value="2" />
           <entry key="env" value="2" />
           <entry key="gitignore" value="1" />
-          <entry key="html" value="76" />
+          <entry key="html" value="77" />
           <entry key="jpeg" value="1" />
           <entry key="jpg" value="1" />
           <entry key="md" value="1" />
@@ -105,7 +103,7 @@
         <counts>
           <entry key=".env file" value="2" />
           <entry key="CSS" value="2" />
-          <entry key="HTML" value="76" />
+          <entry key="HTML" value="77" />
           <entry key="Image" value="3" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="7" />
@@ -116,7 +114,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../centiapp/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
@@ -124,6 +122,15 @@
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../centiapp/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -269,7 +276,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="923" />
     <option name="y" value="34" />
     <option name="width" value="989" />
@@ -354,8 +361,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="923" y="34" width="989" height="1020" extended-state="0" />
-    <editor active="true" />
+    <frame x="923" y="34" width="989" height="1020" extended-state="1" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14078675" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -469,13 +475,6 @@
     <entry file="file://$PROJECT_DIR$/../centiapp/templates/User/search.html" />
     <entry file="file://$PROJECT_DIR$/../centiapp/templates/User/timeline.html" />
     <entry file="file://$PROJECT_DIR$/../centiapp/templates/User/updateprofile.html" />
-    <entry file="file://$PROJECT_DIR$/../centiapp/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Procfile">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -692,6 +691,13 @@
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../centiapp/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
         </state>
       </provider>
     </entry>
